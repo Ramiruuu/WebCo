@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Aesthetic Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="btn signup">Sign Up</button>
+                <button class="btn login">Login</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-left">
+                <h1>Welcome to Our Website</h1>
+                <p>Discover a world of warmth, creativity, and connection.</p>
+                <div class="social-icons">
+                    <a href="#" class="icon gmail"></a>
+                    <a href="#" class="icon twitter"></a>
+                    <a href="#" class="icon instagram"></a>
+                    <a href="#" class="icon facebook"></a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="image-placeholder">
+                    <img src="image/us.jpg" alt="Placeholder Image">
+                </div>
+            </div>
+        </section>
+
+<!-- Collections Section -->
+<!-- Collections Section -->
+<section class="collections" id="collections">
+    <h2>Our Collections</h2>
+    <div class="collection-grid">
+        <div class="collection-card" data-image="image/1.jpg" data-quote="Love is the greatest adventure." data-date="March 29, 2025">
+            <img src="image/1.jpg" alt="Collection 1">
+            <p>Collection 1</p>
+            <button class="view-btn">View</button>
+        </div>
+        <div class="collection-card" data-image="image/2.jpg" data-quote="You are my forever." data-date="March 29, 2025">
+            <img src="image/2.jpg" alt="Collection 2">
+            <p>Collection 2</p>
+            <button class="view-btn">View</button>
+        </div>
+        <div class="collection-card" data-image="image/3.jpg" data-quote="Together is my favorite place." data-date="March 29, 2025">
+            <img src="image/3.jpg" alt="Collection 3">
+            <p>Collection 3</p>
+            <button class="view-btn">View</button>
+        </div>
+        <div class="collection-card" data-image="image/4.jpg" data-quote="Love grows where trust is planted." data-date="March 29, 2025">
+            <img src="image/4.jpg" alt="Collection 4">
+            <p>Collection 4</p>
+            <button class="view-btn">View</button>
+        </div>
+        <div class="collection-card" data-image="image/5.jpg" data-quote="You’re my heart’s home." data-date="March 29, 2025">
+            <img src="image/5.jpg" alt="Collection 5">
+            <p>Collection 5</p>
+            <button class="view-btn">View</button>
+        </div>
+        <div class="collection-card" data-image="image/6.jpg" data-quote="Every moment with you is magic." data-date="March 29, 2025">
+            <img src="image/6.jpg" alt="Collection 6">
+            <p>Collection 6</p>
+            <button class="view-btn">View</button>
+        </div>
+    </div>
+
+    <!-- Collection Modal -->
+    <div class="collection-modal" id="collectionModal">
+        <div class="collection-modal-content">
+            <span class="close-btn">×</span>
+            <img id="modalImage" src="" alt="Selected Collection">
+            <p id="modalQuote"></p>
+            <p id="modalDate"></p>
+        </div>
+    </div>
+</section>
+
+    <!-- Collection Modal -->
+    <div class="collection-modal" id="collectionModal">
+        <div class="collection-modal-content">
+            <div class="modal-left">
+                <h3>Love Quote</h3>
+                <p id="modalQuote"></p>
+                <h3>Date Taken</h3>
+                <p id="modalDate"></p>
+                <div class="modal-icons">
+                    <span class="icon heart"></span>
+                    <span class="icon star"></span>
+                </div>
+                <button class="exit-btn">Exit</button>
+            </div>
+            <div class="modal-right">
+                <img id="modalImage" src="" alt="Selected Collection">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section class="about" id="about">
+    <h2>About Us</h2>
+    <div class="about-grid">
+        <div class="about-card" data-image="image/team1.jpg" data-name="Alex Carter" data-goals="To inspire and uplift others through creativity." data-dream="Creative Director">
+            <img src="image/team1.jpg" alt="Allyza Jane">
+            <h3>Ally</h3>
+            <p><strong>Born:</strong>October 10, 2005</p>
+            <p> <strong>Address</strong> Barangay Pagatpat, Cagayan de Oro City</p>
+            <p><strong> Goal: </strong> </p>
+            <p><strong> Born: </strong>Time is Gold </p>
+        </div>
+
+        <div class="about-card" data-image="image/team2.jpg" data-name="Jamie Lee" data-goals="To build a world where everyone feels connected." data-dream="Community Manager">
+            <img src="image/aboutjm.jpeg" alt="Baby Jm">
+            <h3>Baby James Mario</h3>
+            <p><strong> Born:</strong>October 10, 2005</p>
+            </strong>September 7, 2024</p>
+            <p> <strong>Address</strong> Barangay 28, Cagayan de Oro City</p>
+            <p><strong> Goal:</strong> To grow faster </p>
+            <p><strong> Motto:</strong>Time is Gold </p>
+        </div>
+
+        <div class="about-card" data-image="image/team3.jpg" data-name="Taylor Quinn" data-goals="To explore and capture life’s beauty." data-dream="Photographer">
+            <img src="image/team3.jpg" alt="Taylor Quinn">
+            <h3>Taylor Quinn</h3>
+            <p><strong>Goals in Life:</strong> To explore and capture life’s beauty.</p>
+            <p><strong>Dream Job:</strong> Photographer</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us Section -->
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: oclaritremar25@gmail | Phone: (123) 456-7890</p>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
